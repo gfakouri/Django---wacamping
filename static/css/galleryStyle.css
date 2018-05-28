@@ -1,0 +1,412 @@
+
+
+
+body,
+    html {
+        height: 100%;
+        margin: 0;
+        font-size: 16px;
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        line-height: 1.8em;
+        color: #666;
+    }
+    
+    .navbar {
+        background-color: #282e34;
+        overflow: hidden;
+        height: 63px;
+        transition: 0.5s;
+        outline: 0px solid #282e34;
+        outline-offset: 5px;
+        margin: 0px;
+    }
+    
+    .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px 14px;
+        text-decoration: none;
+        font-size: 27px;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+    }
+    
+    .navbar ul {
+        margin: 8px 0 0 0;
+        list-style: none;
+    }
+    
+    .navbar a:hover {
+        background-color: #ddd;
+        color: #000;
+    }
+    
+    .side-nav {
+        height: 35%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #2a3138;
+        opacity: 0.9;
+        overflow-x: hidden;
+        padding-top: 0px;
+        transition: 0.5s;
+        margin: 0px;
+        font-size: 27px;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+        outline: 3px solid #2a3138;
+        outline-offset: 0px;
+    }
+    
+    .side-nav a {
+        padding: 10px 10px 10px 10px;
+        text-decoration: none;
+        font-size: 22px;
+        color: #ccc;
+        display: block;
+        transition: 0.3s;
+    }
+    
+    .side-nav a:hover {
+        background-color: #fff;
+    }
+    
+    .side-nav .btn-close {
+        position: absolute;
+        top: 0;
+        right: 22px;
+        font-size: 36px;
+        margin-left: 50px;
+        text-align: left;
+    }
+    
+    .photo-container {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-areas:    "photo1 photo1 photo2 photo3" 
+                                "photo4 photo4 photo2 photo5" 
+                                "photo4 photo4 photo2 photo8"
+                                "photo6 photo7 photo7 photo8"
+                                "photo9 photo9 photo10 photo10"
+                                "photo9 photo9 photo11 photo11"
+                                "photo12 photo13 photo13 photo14"
+                                "photo12 photo13 photo13 photo15"
+                                "photo12 photo16 photo16 photo16"
+                                "photo17 photo17 photo18 photo18"
+                                "photo17 photo17 photo19 photo20"
+                                "photo21 photo21 photo19 photo22"
+                                "photo23 photo24 photo25 photo25"
+                                "photo23 photo26 photo25 photo25"
+                                "photo23 photo27 photo27 photo27";
+        padding: 14px;
+        }
+
+    .photo1, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7, .photo8, .photo9, .photo10, .photo11, .photo12, .photo13, .photo14, .photo15, .photo16, .photo17, .photo18, .photo19, .photo20, .photo21, .photo22, .photo23, .photo24, .photo25, .photo26, .photo27  {
+
+        outline: 2px solid #282e34;
+        outline-offset: 5px;
+    }
+        
+    .photo1 {
+        grid-area: photo1;
+        background: url("/static/camping_images/beach1.jpg");
+        min-height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .photo2 {
+        grid-area: photo2;
+        background: url("/static/camping_images/trees1.jpg");
+        min-height: 600px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .photo3 {
+        grid-area: photo3;
+        background: url("/static/camping_images/me_dogs.jpg");
+        min-height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .photo4 {
+        grid-area: photo4;
+        background: url("/static/camping_images/troopy.jpg");
+        min-height: 400px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .photo5 {
+        grid-area: photo5;
+        background: url("/static/camping_images/lake.jpg");
+        min-height: 200px;
+        background-size: cover;
+        background-position: center;
+        }
+    
+    .photo6 {
+        grid-area: photo6;
+        background: url("/static/camping_images/dogs.jpg");
+        min-height: 200px;
+        outline-offset: 5px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .photo7 {
+        grid-area: photo7;
+        background: url("/static/camping_images/beach2.jpg");
+        min-height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .photo8 {
+        grid-area: photo8;
+        background: url("/static/camping_images/trees2.jpg");
+        min-height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .photo9 {
+        grid-area: photo9;
+        background: url("/static/camping_images/troopy4.jpg");
+        min-height: 400px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .photo10 {
+        grid-area: photo10;
+        background: url("/static/camping_images/jetty.jpg");
+        min-height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .photo11 {
+        grid-area: photo11;
+        background: url("/static/camping_images/vineyard.jpg");
+        min-height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .photo12 {
+        grid-area: photo12;
+        background: url("/static/camping_images/troopy3.jpg");
+        min-height: 600px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .photo13 {
+        grid-area: photo13;
+        background: url("/static/camping_images/albany.jpg");
+        min-height: 400px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .photo14 {
+        grid-area: photo14;
+        background: url("/static/camping_images/dogs2.jpg");
+        min-height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .photo15 {
+        grid-area: photo15;
+        background: url("/static/camping_images/trees3.jpg");
+        min-height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .photo16 {
+        grid-area: photo16;
+        background: url("/static/camping_images/beach3.jpg");
+        min-height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .photo17 {
+        grid-area: photo17;
+        background: url("/static/camping_images/tree5.jpg");
+        min-height: 400px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .photo18 {
+        grid-area: photo18;
+        background: url("/static/camping_images/denham.jpg");
+        min-height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .photo19 {
+        grid-area: photo19;
+        background: url("/static/camping_images/ravine.jpg");
+        min-height: 400px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .photo20 {
+        grid-area: photo20;
+        background: url("/static/camping_images/scruff.jpg");
+        min-height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .photo21 {
+        grid-area: photo21;
+        background: url("/static/camping_images/dune.jpg");
+        min-height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .photo22 {
+        grid-area: photo22;
+        background: url("/static/camping_images/seagul.jpg");
+        min-height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .photo23 {
+        grid-area: photo23;
+        background: url("/static/camping_images/ravine2.jpg");
+        min-height: 600px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .photo24 {
+        grid-area: photo24;
+        background: url("/static/camping_images/cliff.jpg");
+        min-height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .photo25 {
+        grid-area: photo25;
+        background: url("/static/camping_images/rock.jpg");
+        min-height: 400px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .photo26 {
+        grid-area: photo26;
+        background: url("/static/camping_images/sunset2.jpg");
+        min-height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .photo27 {
+        grid-area: photo27;
+        background: url("/static/camping_images/esperance.jpg");
+        min-height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .ptext {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: #000;
+        font-size: 27px;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+        transition: 1s;
+    }
+    
+    .ptext .border {
+        background-color: #282e34;
+        color: #fff;
+        padding: 20px;
+        outline: 3px solid #282e34;
+        outline-offset: 5px;
+
+    }
+    
+    .highlight {
+        color: green;
+    }
+
+    #main-footer {
+        padding: 2em;
+        background: #282e34;
+        color: #b8c3bb;
+        font-size: 18px;
+        display: flex;
+        justify-content: right;
+    }
+
+    @media(max-width:569px) {
+   
+        .navbar-nav {
+            display: none;
+        }
+
+        .photo-container {
+            display: grid;
+            grid-gap: 20px;
+            grid-template-areas:    "photo1"
+                                    "photo2"
+                                    "photo3"
+                                    "photo4"
+                                    "photo5"
+                                    "photo6"
+                                    "photo7"
+                                    "photo8"
+                                    "photo9"
+                                    "photo10"
+                                    "photo11"
+                                    "photo12"
+                                    "photo13"
+                                    "photo14"
+                                    "photo15"
+                                    "photo16"
+                                    "photo17"
+                                    "photo18"
+                                    "photo19"
+                                    "photo20"
+                                    "photo21"
+                                    "photo22"
+                                    "photo23"
+                                    "photo24"
+                                    "photo25"
+                                    "photo26"
+                                    "photo27";
+            
+            padding: 20px;
+            }
+
+            .ptext {
+                font-size: 16px;
+                letter-spacing: 4px;
+                transition: 0.5s;
+            }
+    }
