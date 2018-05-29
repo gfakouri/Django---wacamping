@@ -25,7 +25,7 @@ urlpatterns = [
     path('', include('camping.urls')),  
     path('admin/', admin.site.urls),
     path('camping/', include('camping.urls')),
-    
+    path('blog/', include('blog.urls')),
 ]
 
 
