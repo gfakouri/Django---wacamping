@@ -6,10 +6,10 @@ from django.http import HttpResponse
 def index(request):
     #return HttpResponse("HELLO")
 
-    return render(request, 'posts/index.html')
+    return render(request, 'camping/index.html')
 
 def map(request):
-    return render(request, 'posts/map.html', {})
+    return render(request, 'camping/map.html', {})
 
 def gallery(request):
-    return render(request, 'posts/gallery.html', {})
+    return render(request, 'camping/gallery.html', {})
