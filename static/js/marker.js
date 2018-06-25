@@ -130,5 +130,11 @@
                     coords:{lat:-33.002629, lng:115.974505},
                     iconImage:"/static/icons/tents.png",
                     content:'<a href="index.html" class="locations">Lake Brockman Tourist Park</a>'
+                },
+                {
+                    coords:{lat:-28.211641, lng:114.305209},
+                    iconImage:"/static/icons/tents.png",
+                    /*content:'<a href="{% url \'/lingaReview/\' %}" class="locations">Linga Longa Farmstay</a>'*/
+                    content:'<a href="/camping/lingaReview/" class="locations">Linga Longa Farmstay</a>'
                 }
             ];

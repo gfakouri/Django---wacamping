@@ -13,3 +13,6 @@ def map(request):
 
 def gallery(request):
     return render(request, 'camping/gallery.html', {})
+
+def lingaReview(request):
+    return render(request, 'camping/lingaReview.html', {})
