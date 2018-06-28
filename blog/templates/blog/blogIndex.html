@@ -1,0 +1,15 @@
+{% extends 'camping/layout.html' %}
+
+{% load static %}
+
+{% block content %}
+<h1>hello you feckers jjjjjjjjjjjjjjjjjj
+<h3>{{title}}</h3>
+</h1>
+<a href="/admin">admin</a>
+<ul>
+    {% for blog in blog %}
+    <li><a href="/blog/details/{{blog.id}}">{{blog.title}}</a>hello</li>
+    {% endfor %}
+</ul>
+{% endblock %}

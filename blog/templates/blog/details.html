@@ -1,0 +1,56 @@
+{% extends 'camping/layout.html' %}
+
+{% load static %}
+
+{% block content %}
+
+
+
+<div class="pimg1">
+        <div class="ptext">
+            <span class="border">
+            Far, Far and a<span class="highlight">wa</span>y
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-light">
+        <h2>{{blog.title}}</h2>
+
+    </section>
+
+    <div class="pimg2">
+        <div class="ptext">
+            <span class="border">
+                Far, Far and a<span class="highlight">wa</span>y
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>Section 2</h2>
+        <p>{{blog.body1}}</p>
+        <div></div>
+    </section>
+
+    <div class="pimg3">
+        <div class="ptext">
+            <span class="border">
+                Far, Far and a<span class="highlight">wa</span>y
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>{{blog.created_at}}</h2>
+
+    </section>
+
+    <div class="pimg4">
+        <div class="ptext">
+            <span class="border">
+                Far, Far and a<span class="highlight">wa</span>y
+            </span>
+        </div>
+    </div>
+{% endblock %}
