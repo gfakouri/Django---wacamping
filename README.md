@@ -1,6 +1,6 @@
 # Django---wacamping
 ```
-Not linked to domain yet
+www.scruffcamping.com
 ```
 A project to develop a dynamic website to document the possible camping experiences available in Western Australia. Django was 
 utilised with Digital Ocean. 
@@ -51,9 +51,15 @@ Googlefonts for font selection.
 
 SNAZZY MAPS was used for the map styling.
 
+SSL certificate - Let's Encrypt
+
+SSH - PuTTY
+
+SFTP - WinSCP
+
 ### Testing
 
-The website was initially tested on Google Chrome. It appeared stable in both the desktop and and mobile configurations. On Firefox there weren't any issues in either types of configuration. The testing on Safari was limited to a laptop so i am unsure of the outcome on a mobile. It was also tested on an Android tablet in Chrome and Firefox. Testing is an area that requires further investigation. 
+The website was initially tested on Google Chrome. It appeared stable in both the desktop and and mobile configurations. On Firefox there weren't any issues in either types of configuration. The testing on Safari was limited to a laptop so i am unsure of the outcome on a mobile. It was also tested on an Android tablet in Chrome and Firefox.It passed  Google's mobile friendly test. Passed W3C HTML validation. Testing is an area that requires further investigation. 
 
 ## Author
 
@@ -66,3 +72,4 @@ Gareth Fakouri
 * SentDex
 * kalukalu
 * Max Goodridge
+* Digital Ocean
