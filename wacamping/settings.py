@@ -31,7 +31,7 @@ SECRET_KEY = '8_ey)$r7*+!kq_eti%uqd!s^)@g=dmos68mf(1n)!ebgtpgk^6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["167.99.72.94"]
+ALLOWED_HOSTS = ["www.scruffcamping.com", "167.99.72.94"]
 
 
 # Application definition
