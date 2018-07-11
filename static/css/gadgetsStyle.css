@@ -228,7 +228,7 @@ html {
 
 .photo14 {
     grid-area: photo14;
-    background: url("/static/camping_images/dogs2.jpg");
+    background: url("/static/camping_images/kayak.jpg");
     min-height: 200px;
     background-size: cover;
     background-position: center;
