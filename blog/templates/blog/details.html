@@ -1,56 +1,53 @@
-{% extends 'camping/layout.html' %}
-
-{% load static %}
-
-{% block content %}
+{% extends 'camping/layout.html' %} {% load static %} {% block content %}
 
 
 
 <div class="pimg1">
-        <div class="ptext">
-            <span class="border">
+    <div class="ptext">
+        <span class="border">
             Far, Far and a<span class="highlight">wa</span>y
-            </span>
-        </div>
+        </span>
     </div>
+</div>
 
-    <section class="section section-light">
-        <h2>{{blog.title}}</h2>
+<section class="section section-light">
+    <h2>{{blog.title}}</h2>
 
-    </section>
+</section>
 
-    <div class="pimg2">
-        <div class="ptext">
-            <span class="border">
+<div class="pimg2">
+    <div class="ptext">
+        <span class="border">
                 Far, Far and a<span class="highlight">wa</span>y
-            </span>
-        </div>
+        </span>
     </div>
+</div>
 
-    <section class="section section-dark">
-        <h2>Section 2</h2>
-        <p>{{blog.body1}}</p>
-        <div></div>
-    </section>
+<section class="section section-dark">
+    <h2>Section 2</h2>
+    <p>{{blog.body1}}</p>
+    <div></div>
+</section>
 
-    <div class="pimg3">
-        <div class="ptext">
-            <span class="border">
+<div class="pimg3">
+    <div class="ptext">
+        <span class="border">
                 Far, Far and a<span class="highlight">wa</span>y
-            </span>
-        </div>
+        </span>
     </div>
+</div>
 
-    <section class="section section-dark">
-        <h2>{{blog.created_at}}</h2>
+<section class="section section-dark">
+    <h2>{{blog.created_at}}</h2>
+    <ul>{{blog.body3}}</ul>
 
-    </section>
+</section>
 
-    <div class="pimg4">
-        <div class="ptext">
-            <span class="border">
+<div class="pimg4">
+    <div class="ptext">
+        <span class="border">
                 Far, Far and a<span class="highlight">wa</span>y
-            </span>
-        </div>
+        </span>
     </div>
+</div>
 {% endblock %}

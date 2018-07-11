@@ -16,3 +16,6 @@ def gallery(request):
 
 def lingaReview(request):
     return render(request, 'camping/lingaReview.html', {})
+
+def gadgets(request):
+    return render(request, 'camping/gadgets.html', {})  
