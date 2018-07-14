@@ -57,9 +57,11 @@ SSH - PuTTY
 
 SFTP - WinSCP
 
+SnapShooter - Daily Backup - 10 days worth
+
 ### Testing
 
-The website was initially tested on Google Chrome. It appeared stable in both the desktop and and mobile configurations. On Firefox there weren't any issues in either types of configuration. The testing on Safari was limited to a laptop so i am unsure of the outcome on a mobile. It was also tested on an Android tablet in Chrome and Firefox.It passed  Google's mobile friendly test. Passed W3C HTML validation. Testing is an area that requires further investigation. 
+The website was initially tested on Google Chrome. It appeared stable in both the desktop and and mobile configurations. On Firefox there weren't any issues in either types of configuration. The testing on Safari was limited to a laptop so i am unsure of the outcome on a mobile. It was also tested on an Android tablet in Chrome and Firefox.It passed  Google's mobile friendly test. Passed W3C HTML validation. DNS check with MX Toolbox. Testing is an area that requires further investigation. 
 
 ## Author
 
