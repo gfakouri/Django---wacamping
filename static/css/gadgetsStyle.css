@@ -268,7 +268,7 @@ html {
 
 .photo19 {
     grid-area: photo19;
-    background: url("/static/camping_images/ravine.jpg");
+    background: url("/static/camping_images/shower.jpg");
     min-height: 400px;
     background-size: cover;
     background-position: center;
