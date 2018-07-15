@@ -6,9 +6,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>camping</title>
+    <title>WA Camping</title>
+    <meta name="description" content="Western Australia Camping information">
+    <meta name="keywords" content="Western Australia, Camping, Holidays, Beaches, Gadgets, Map">
+    
+    <!--Stylesheet-->
     <link rel="stylesheet" href="{% static 'css/Style.css' %}">
+    
+    <!--Font-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+    
+    <!--Tab icon code-->
     <link rel="apple-touch-icon" sizes="180x180" href="{% static 'Favicon/apple-touch-icon.png' %}">
     <link rel="icon" type="image/png" sizes="32x32" href="{% static 'Favicon/favicon-32x32.png' %}">
     <link rel="icon" type="image/png" sizes="16x16" href="{% static 'Favicon/favicon-16x16.png' %}">
@@ -17,6 +25,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     
+    <!--Script for loading-->
     <script type="text/javascript">
         function preloader(){
             document.getElementById("loading").style.display = "none";
@@ -29,6 +38,7 @@
 
 <body>
 
+    <!--Dynamic loading icon-->
     <div id="loading">
             <div id="loader-wrapper">
                 <div id="loader">
@@ -44,10 +54,10 @@
             </div>
     </div>
 
+    <!--Main content to load-->
     <div id="content"></div>
 
-
-
+    <!--TOP MENU-->
         <nav id="top-menu" class="navbar">
             <span class="open-slide">
                 <a href="#" onclick="openSlideMenu()">
@@ -71,6 +81,7 @@
 
         </nav>
 
+        <!--SIDE MENU-->
         <div id="side-menu" class="side-nav">
             <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
             <a href="{% url 'index' %}">Home</a>
@@ -85,12 +96,13 @@
    
         <div class="container">
 
+            <!--PAGE DEPENDENT CONTENT-->
             {% block content %} {% endblock %}
 
         </div> 
     
 
-
+        <!--FOOTER -->
         <footer id="main-footer" class="grid">
             <div>COPYRIGHT &copy;, LIKE ANY IDEAS HERE ARE MINE. </div>
         </footer>

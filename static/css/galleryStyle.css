@@ -394,7 +394,7 @@ body,
 
     .photo35 {
         grid-area: photo35;
-        background: url("/static/camping_images/scruffy.jpg");
+        background: url("/static/camping_images/scruffy2.jpg");
         min-height: 200px;
         background-size: cover;
         background-position: center;
