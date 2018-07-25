@@ -3,13 +3,119 @@
 {% load static %}
 
 {% block content %}
-<h1>hello you feckers jjjjjjjjjjjjjjjjjj
-<h3>{{title}}</h3>
-</h1>
-<a href="/admin">admin</a>
-<ul>
-    {% for blog in blog %}
-    <li><a href="/blog/details/{{blog.id}}">{{blog.title}}</a>hello</li>
-    {% endfor %}
-</ul>
+
+<style>
+
+.section, .section-light.title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.section, .section-light .blogList {
+
+        list-style: none;
+        
+}
+
+.admin {
+    padding: 10px 10px 10px 10px;
+        text-decoration: none;
+        font-size: 22px;
+        color: #2a3138;
+        
+}
+
+.section, .section-light .blogList a, .admin {
+
+        text-decoration: none;
+        font-size: 22px;
+        color:  #ddd;
+        
+}
+
+.section, .section-light .blogList a:hover, .admin:hover {
+        color:green;
+    }
+
+
+
+
+
+</style>
+
+
+<!--
+<div class="back">
+
+    <h1>
+        <h1 class="title">{{title}}</h1>
+        </h1>
+
+        <ul >
+            {% for blog in blog %}
+            <li class="blogList"><a href="/blog/details/{{blog.id}}">{{blog.title|safe }} </a></li>
+            {% endfor %}
+        </ul>
+
+
+
+
+</div>
+
+
+
+<a class="admin" href="/admin">ADMIN</a>
+-->
+
+<div class="pimg1">
+    <div class="ptext">
+        <span class="border">
+        Far, Far and a<span class="highlight">wa</span>y
+        </span>
+    </div>
+</div>
+
+<section class="section section-light">
+    <h2>{{title}}</h2>
+    <ul >
+        {% for blog in blog %}
+        <li class="blogList"><a href="/blog/details/{{blog.id}}">{{blog.title|safe }} </a></li>
+        {% endfor %}
+    </ul>
+</section>
+
+<div class="pimg2">
+    <div class="ptext">
+        <span class="border">
+            Far, Far and a<span class="highlight">wa</span>y
+        </span>
+    </div>
+</div>
+
+<section class="section section-dark">
+    <h2>THE MAP</h2>
+    <p>We have included a map with the locations in <span class="highlight">WA</span> that we think are interesting. If we have visited that location a review by ourselves is linked but if we haven't there is also a link to the official website. The directions will give you a quick guide of the distances you will have to travel and times involved. </p>
+</section>
+
+<div class="pimg3">
+    <div class="ptext">
+        <span class="border">
+            Far, Far and a<span class="highlight">wa</span>y
+        </span>
+    </div>
+</div>
+
+<section class="section section-dark">
+    <a class="admin" href="/admin">ADMIN</a>
+</section>
+
+<div class="pimg4">
+    <div class="ptext">
+        <span class="border">
+            Far, Far and a<span class="highlight">wa</span>y
+        </span>
+    </div>
+</div>
 {% endblock %}
+
